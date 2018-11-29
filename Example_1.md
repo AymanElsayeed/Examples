@@ -8,7 +8,7 @@ Read CSV
 df <- read.csv("~/Desktop/Examples/ccdefault.csv", header = T)
 ```
 
-NORMALIZE DATA
+Normalize Data
 --------------
 
 If ranges for variables are very different, then it's a good idea to normalize the variables, which puts them in similar ranges. Use custom function for now.
@@ -111,7 +111,7 @@ head(dfn)
     ## 5 0.001284365       0
     ## 6 0.001513243       0
 
-SPLIT DATA
+Split Data
 ----------
 
 #### Split data into training set (2/3) and testing set (1/3)
@@ -138,7 +138,7 @@ dfn.train.labels <- dfn[dfn.split == 1, 24]
 dfn.test.labels  <- dfn[dfn.split == 2, 24]
 ```
 
-### BUILD AND TEST CLASSIFIER
+### Build and test Classifier
 
 Build classifier for test data.
 
