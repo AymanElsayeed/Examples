@@ -9,7 +9,7 @@ pacman::p_load("class")
 ```
 ## Read CSV
 ```{r}
-df <- read.csv("~/Desktop/Examples/ccdefault.csv", header = T)
+df <- read.csv("~/Desktop/Examples/Data/ccdefault.csv", header = T)
 ```
 ## Normalize Data
 
@@ -90,12 +90,3 @@ dfn.pred <- knn(train = dfn.train,
 ```{r}
 table(dfn.pred, dfn.test.labels)
 ```
-
-
-
-
-
-
-
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
